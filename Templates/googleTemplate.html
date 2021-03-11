@@ -1,0 +1,26 @@
+<!-- Refreshes the page every 60 seconds (one minute) -->
+<meta http-equiv="refresh" content="60">
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+
+</head>
+<style>
+    body { background-color: #074D6B; font-family:Verdana; color:#FECA30; margin:50px 50px;}
+    .dataStyle {color:white !important;display: inline-block; margin-left: 10px; }
+    p {display: inline-block}</style>
+<body>
+
+    <h1>Google Status</h1>
+    <br>
+    <p> <b>URL:</b> <div class="dataStyle"> {{ data.url }} </div> </p> <br>
+    <p> <b>STATUS CODE:</b> <div class="dataStyle"> {{ data.statusCode }} </div> </p> <br>
+    <p> <b>DURATION:</b> <div class="dataStyle">{{ data.duration }} </div> </p> <br>
+    <p> <b>DATE:</b> <div class="dataStyle">{{ data.date }} </div> </p> <br>
+    <br>
+    <br>
+    <p>by <b>Luke Heary</b></p>
+
+</body>
+</html>
